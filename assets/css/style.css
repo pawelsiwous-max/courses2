@@ -1,0 +1,108 @@
+label.onee[for="text"] {
+    color: green;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+label.twoo[for="password"] {
+    color: magenta;
+}
+
+input.onee[type="text"] {
+    color: sienna;
+    border: solid 1px black;
+}   
+
+input.twoo [type="password"] {
+    color: red;
+    border: solid 1px black;
+}
+
+span.color.type {
+    color: green;
+}
+
+span.color {
+    color: magenta;
+}
+
+a.player {
+    color: chartreuse;
+}
+
+textarea {
+    color: red;;
+}
+
+.tree {
+    color: red;
+    background-color: yellow;
+    border: solid 1px black;
+}
+
+a {
+    color: black;
+    font-size: 20px; 
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: yellow;
+}
+
+ul li {
+    color: green;
+}
+
+ul li:nth-child(even) {
+    color: red;
+}
+
+li:hover:before.hurt {
+    content: ' ❤️';
+}
+
+input:focus {
+    background-color: red;
+}
+
+.makvin {
+    width: 100px;
+    height: 150px;
+}
+
+.red {
+    background-color: red;
+    color: black;
+    position: relative;
+    top: 157px;
+    right: 15px;
+    z-index: -1;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+    position: absolute;
+    top: 400%;
+    right: 40%;
+    transform: translate(50%, -50%);
+    z-index: -1;
+}
+
+.blue {
+    background-color: blue;
+}
